@@ -2,9 +2,9 @@
 
 After you make your changes use these commands in the following order:
 1) git add . 
-2) git commit -m "<commit message>"
-3) git pull origin <branchname> (default: master)
-4) git push origin <branchname> (default: master)
+2) git commit -m "(commit message)"
+3) git pull origin [branchname] (default: master)
+4) git push origin [branchname] (default: master)
 
 ## To deploy
 
