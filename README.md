@@ -1,3 +1,19 @@
+## Instructions for deployment
+
+After you make your changes use these commands in the following order:
+1) git add . 
+2) git commit -m "<commit message>"
+3) git pull origin <branchname> (default: master)
+4) git push origin <branchname> (default: master)
+
+## To deploy
+
+After pushing your changes enter npm run deploy
+
+## Do not forget to compile sass
+
+npm run compile:sass
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
